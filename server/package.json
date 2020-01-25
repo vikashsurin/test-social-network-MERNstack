@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "client": "npm start --prefix /home/vikashsurin/2019/tests/client/package.json",
+    "dev": "concurrently \"npm run server \" \"npm run client\""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "concurrently": "^5.0.2",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.12",
+    "nodemon": "^1.19.4"
+  }
+}
